@@ -1,21 +1,22 @@
-# 🎓 SyncLearn Manager: Automated Seminar ERP System
+# 🎓 SeminLogic ERP: Advanced Seminar Automation System
 
-**SyncLearn Manager** is a modular automation suite built with **Google Apps Script**. It streamlines seminar registrations by connecting **Google Forms**, **Google Sheets**, and **Gmail** into a single, cohesive workflow. The system features advanced scheduling logic to prevent time clashes and provides automated student communication.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+**SeminLogic** is a modular automation suite built with **Google Apps Script**. It transforms Google Sheets into a smart management hub that handles seminar registrations, enforces scheduling logic, and automates high-quality student communication.
+
+
 
 ---
 
 ## 🚀 Key Features
 
-* **🛡️ Schedule Integrity:** Prevents a student from registering for two different seminars happening at the same time using the same email.
-* **👥 Smart Multi-User Logic:** Allows one email address to register multiple distinct participants, but blocks exact duplicates (same name + same email + same seminar ID).
+* **🛡️ Schedule Integrity (Time-Clash Logic):** Prevents a student from registering for two different seminars happening at the same time.
+* **👥 Smart Multi-User Logic:** Allows one email to register multiple distinct participants (e.g., family members), but blocks exact duplicates (same name + same email + same seminar).
 * **⏰ Automated Reminders:** Sends professional HTML emails to confirmed participants exactly ~1 hour before the session starts.
-* **🔄 Live Database Management:**
-* **Auto-Status:** Marks seminars as "Completed" automatically in the master sheet 2 hours after the start time.
-* **Real-time Enrollment:** Keeps a live count of confirmed students in the master catalog (Column M).
-
-
-* **📧 Performance Optimized:** Converts Google Drive image links into CDN-optimized URLs for instant rendering in email clients.
-
+* **🔄 Self-Managing Database:**
+    * **Auto-Status:** Marks seminars as "Completed" automatically 2 hours after their start time.
+    * **Live Enrollment:** Keeps a real-time count of confirmed students in the master catalog.
+* **📧 Professional Branding:** Responsive HTML email templates with CDN-optimized images for instant rendering.
 ---
 
 ## 📊 Database Structure
@@ -105,7 +106,7 @@ If you find this useful, you can simply ** fork ** the repository and deploy it 
 
 ### 📧 Contact & Support
 
-* **Email:** [mohammad.mehd.prof@gmail.COM]
+* **Email:** [mohammad.mehd.prof@gmail.com]
 * **LinkedIn:** [https://www.linkedin.com/in/mohammad-mehdi-289b841ab/]
 
 ---
