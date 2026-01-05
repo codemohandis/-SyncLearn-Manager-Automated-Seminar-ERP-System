@@ -1,7 +1,3 @@
-Here is the final, complete, and professional **README.md** file for your **SyncLearn Manager** project. It is written in Markdown format so you can copy and paste it directly into your GitHub repository.
-
----
-
 # 🎓 SyncLearn Manager: Automated Seminar ERP System
 
 **SyncLearn Manager** is a modular automation suite built with **Google Apps Script**. It streamlines seminar registrations by connecting **Google Forms**, **Google Sheets**, and **Gmail** into a single, cohesive workflow. The system features advanced scheduling logic to prevent time clashes and provides automated student communication.
